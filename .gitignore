@@ -1,0 +1,35 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+logs/
+*.log
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Data files
+data/raw/
+data/processed/
+
+# Config files containing secrets (if any)
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+build/
+dist/
